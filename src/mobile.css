@@ -1,0 +1,5 @@
+@media (max-device-width:480px){
+    .home_screen__wrapper {
+        max-width: 90%;
+    }
+}
