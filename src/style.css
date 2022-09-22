@@ -10,13 +10,13 @@ header {
     position: fixed;
     left: 0;
     top: 0;
-    backdrop-filter: blur(5px);
+    background-color: #28293e38;
+    backdrop-filter: blur(7px);
 
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 10%;
-
     color: #fff;
 }
 .logo {
@@ -46,6 +46,7 @@ header {
     font-style: normal;
     font-weight: 900;
     font-size: 14px;
+    letter-spacing: 0.04em;
     text-align: center;
     text-transform: uppercase;
 }
@@ -69,6 +70,11 @@ header {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
 }
 .dropdown-content a:hover { background-color: #ddd }
 .show { display: block; }
@@ -109,8 +115,60 @@ header {
     color: rgba(255, 255, 255, 0.64);
 }
 
-.about {
+main {
     width: 100%;
-    height: 100vh;
     background-color: #fdf0e9;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.my_photo {
+    margin-top: 80px;
+    width: 60%;
+}
+
+section {
+    margin-top: 80px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.section_small_title {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #EF6D58;
+
+    margin-bottom: 20px;
+} 
+
+.section_title {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #391400;
+
+    margin-bottom: 30px;
+}
+
+.section_text {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(57, 20, 0, 0.64);
 }

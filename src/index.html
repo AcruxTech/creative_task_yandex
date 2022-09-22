@@ -7,7 +7,9 @@
     <title>Personal</title>
     <link href="style.css" rel="stylesheet">
     <link href="mobile.css" rel="stylesheet">
-    <link href="assets/fonts/stylesheet.css" rel="stylesheet">
+    <link href="tablet.css" rel="stylesheet">
+    <link href="assets/fonts/fonts.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -16,7 +18,7 @@
             <span class="logo__text">Personal</span>
         </div>
         <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">contacts</button>
+            <button onclick="dropMenu()" class="dropbtn">contacts</button>
             <div id="myDropdown" class="dropdown-content">
                 <a href="#">Telegram</a>
                 <a href="#">Vkontakte</a>
@@ -25,18 +27,43 @@
         </div>
     </header>
 
-    <section class="home_screen">
+    <article class="home_screen">
         <div class="home_screen__wrapper">
             <span class="home_screen__wrapper-title">About me</span>
             <span class="home_screen__wrapper-about">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo voluptas quibusdam laudantium at fuga eos aliquid voluptate officiis nulla possimus?
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo voluptas quibusdam laudantium 
+                at fuga eos aliquid voluptate officiis nulla possimus?
             </span>
         </div>
-    </section>
+    </article>
 
-    <section class="about">
+    <main>
+        <img src="assets/photo.png" class="my_photo"/>
 
-    </section>
+        <section class="about">
+            <span class="section_small_title">Ovchinnikov Vladimir</span>
+            <span class="section_title">Beginning web developer</span>
+            <span class="section_text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate quaerat in, alias cum voluptas 
+                excepturi ullam qui labore expedita itaque magnam ex nisi ratione nostrum natus eaque voluptatibus 
+                rerum id autem eius cupiditate, incidunt unde assumenda. Illo minus ex unde delectus quas nostrum 
+                exercitationem, possimus excepturi sed nobis quae alias, quos reiciendis impedit? Tempora assumenda
+                alias ipsum doloremque aspernatur sit, autem consectetur amet quo. Iusto blanditiis, natus 
+                architecto ad dicta quia quo odit consequatur voluptatibus nostrum cupiditate dolor aliquid quaerat 
+                tenetur ipsam, est ducimus. Mollitia labore voluptates aperiam dolore, nam, minima ea cupiditate 
+                velit hic vitae, voluptate iure laborum fuga.
+            </span>
+        </section>
+
+        <section class="video">
+            <span class="section_small_title">Video</span>
+            <span class="section_title">Video clip about me and this project</span>
+            <span class="section_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia harum facilis laboriosam 
+                accusantium suscipit magnam.
+            </span>
+        </section>
+    </main>
 
     <script src="script.js"></script>
 </body>
