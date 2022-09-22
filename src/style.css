@@ -172,3 +172,47 @@ section {
     line-height: 32px;
     color: rgba(57, 20, 0, 0.64);
 }
+
+.achivements {
+    width: 60vw;
+    flex-direction: row;
+}
+
+.achivement {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #F3D1BF;
+}
+
+#first { border-radius: 6px 0px 0px 6px; }
+#second { border-left: none; border-radius: 0px 6px 6px 0px; }
+
+.achivement > img {
+    margin: 25px 40px 25px 40px;
+}
+
+.achivement__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+} 
+
+.achivement__wrapper-title {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    color: #391400;
+}
+
+.achivement__wrapper-text {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #391400;
+}

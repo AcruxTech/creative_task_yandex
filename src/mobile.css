@@ -10,4 +10,20 @@
     section {
         width: 90%;
     }
+
+    .achivements {
+        width: 90vw;
+        flex-direction: column;
+    }
+
+    .achivement {
+        width: 100%;
+    }
+
+    #first { border-radius: 6px 6px 0px 0px; }
+    #second { 
+        border: 1px solid #F3D1BF;
+        border-top: none; 
+        border-radius: 0px 0px 6px 6px; 
+    }
 }
