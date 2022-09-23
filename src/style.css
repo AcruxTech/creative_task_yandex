@@ -216,3 +216,89 @@ section {
     line-height: 32px;
     color: #391400;
 }
+
+.quote {
+    margin: 160px 0;
+    background: url("assets/icons/quotes.svg") no-repeat 85% 3%;
+}
+
+.quoter_name {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #391400;
+}
+
+.quoter_title {
+    font-family: 'Epilogue';
+    font-style: normal; 
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(57, 20, 0, 0.64);
+}
+
+hr {
+    margin-top: 80px;
+    width: 60%;
+    height: 1px;
+    border: none;
+    color: #f3d1bf;
+    background-color: #f3d1bf;
+}
+
+footer {
+    padding: 50px 20% 20px;
+    width: 100%;
+    background-color: #28293e;
+}
+
+footer hr {
+    width: 100%;
+    margin-top: 50px;
+    background-color: #3a3c56;
+    color: #3a3c56;
+}
+
+.footer__logo {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+}
+
+.footer__wrapper, .footer__contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__contact {
+    margin-left: 8px;
+    width: 48px;
+    height: 48px;
+    background-color: #ef6d58;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__contact img {
+    width: 45%;
+}
+
+.footer__rights {
+    margin-top: 50px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.64);
+}

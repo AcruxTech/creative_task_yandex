@@ -3,7 +3,7 @@
         max-width: 90%;
     }
 
-    .my_photo {
+    .my_photo, hr {
         width: 90%;
     }
 
@@ -25,5 +25,32 @@
         border: 1px solid #F3D1BF;
         border-top: none; 
         border-radius: 0px 0px 6px 6px; 
+    }
+}
+
+
+@media (max-device-width: 550px) {
+    .quote_text {
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    .footer__wrapper {
+        flex-direction: column;
+        align-items: space-between;
+        justify-content: center;
+    }
+
+    .footer__logo {
+        margin-bottom: 25px;
+    }
+    
+
+    footer hr {
+        margin: 25px 0;
+    }
+
+    .footer__rights {
+        margin-top: 0;
     }
 }
