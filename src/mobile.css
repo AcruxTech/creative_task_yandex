@@ -30,7 +30,7 @@
 
 
 @media (max-device-width: 550px) {
-    .quote_text {
+    .section_title, .achivement__wrapper-title {
         font-size: 40px;
         line-height: 46px;
     }

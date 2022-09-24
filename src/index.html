@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="business card site">
     <title>Personal</title>
-    <link href="style.css" rel="stylesheet">
-    <link href="mobile.css" rel="stylesheet">
-    <link href="tablet.css" rel="stylesheet">
-    <link href="assets/fonts/fonts.css" rel="stylesheet">
+    <link href="style-min.css" rel="stylesheet">
+    <link href="mobile-min.css" rel="stylesheet">
+    <link href="tablet-min.css" rel="stylesheet">
+    <link href="assets/fonts/fonts-min.css" rel="stylesheet">
     <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
 </head>
 <body>
     <header>
         <div class="logo">
-            <img src="assets/logo.svg" />
+            <img src="assets/logo.svg" alt="logo"/>
             <span class="logo__text">Personal</span>
         </div>
         <div class="dropdown">
             <button onclick="dropMenu()" class="dropbtn">contacts</button>
             <div id="myDropdown" class="dropdown-content">
-                <a href="#">Telegram</a>
-                <a href="#">Vkontakte</a>
-                <a href="#">Email</a>
+                <a href="https://t.me/AcruxTech">Telegram</a>
+                <a href="https://vk.com/ovchinnikov.vladimir">Vkontakte</a>
+                <a href="mailto: acrux_tech@mail.ru">Email</a>
             </div>
         </div>
     </header>
@@ -31,64 +32,63 @@
         <div class="home_screen__wrapper">
             <span class="home_screen__wrapper-title">About me</span>
             <span class="home_screen__wrapper-about">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo voluptas quibusdam laudantium 
-                at fuga eos aliquid voluptate officiis nulla possimus?
+                This small business card site was created by Vladimir Ovchnnikov as a creative task 
+                for admission to the yandex intensive course. Next, I will briefly talk about myself 
+                and my goals.
             </span>
         </div>
     </article>
 
     <main>
-        <img src="assets/images/photo.png" class="my_photo"/>
+        <img src="assets/images/photo.webp"  alt="my_photo" class="my_photo"/>
 
         <section class="about">
-            <span class="section_small_title">Ovchinnikov Vladimir</span>
+            <span class="section_small_title">i am ovchinnikov vladimir</span>
             <span class="section_title">Beginning web developer</span>
             <span class="section_text">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate quaerat in, alias cum voluptas 
-                excepturi ullam qui labore expedita itaque magnam ex nisi ratione nostrum natus eaque voluptatibus 
-                rerum id autem eius cupiditate, incidunt unde assumenda. Illo minus ex unde delectus quas nostrum 
-                exercitationem, possimus excepturi sed nobis quae alias, quos reiciendis impedit? Tempora assumenda
-                alias ipsum doloremque aspernatur sit, autem consectetur amet quo. Iusto blanditiis, natus 
-                architecto ad dicta quia quo odit consequatur voluptatibus nostrum cupiditate dolor aliquid quaerat 
-                tenetur ipsam, est ducimus. Mollitia labore voluptates aperiam dolore, nam, minima ea cupiditate 
-                velit hic vitae, voluptate iure laborum fuga.
+                Even in elementary school, I began to be interested in computers and everything connected 
+                with them. My father told me about programming languages and taught me the basics 
+                of one of them - Pascal. Since then, I have "fired up" programming and it has become a real
+                hobby for me, with which I want to connect my life in the future. I studied on my own and 
+                attended various clubs at school.<br>
+                Around the spring of this year, I started working as a freelance: I wrote practical, 
+                laboratory, term papers for students, made a couple of bots (python aiogram 2.x). 
+                Now I am working on my site <a href="https://akmit.ru">akmit.ru</a> - a remake of the 
+                electronic diary. In it I use Vue3 for the site itself and C# ASP.NET for the backend of 
+                the project. Communication between them is carried out through API.
             </span>
         </section>
 
         <section class="achivements">
             <div class="achivement" id="first">
-                <img src="assets/icons/achive1.svg" class="achivement__icon">
+                <img src="assets/icons/achive1.svg" alt="achive" class="achivement__icon">
                 <div class="achivement__wrapper">
-                    <span class="achivement__wrapper-title">42%</span>
-                    <span class="achivement__wrapper-text">Years Of Experience</span>
+                    <span class="achivement__wrapper-title">Since 12yo</span>
+                    <span class="achivement__wrapper-text">I Am Programming</span>
                 </div>
             </div>
             <div class="achivement" id="second">
-                <img src="assets/icons/achive2.svg" class="achivement__icon">
+                <img src="assets/icons/achive2.svg" alt="achive" class="achivement__icon">
                 <div class="achivement__wrapper">
-                    <span class="achivement__wrapper-title">73+</span>
-                    <span class="achivement__wrapper-text">Projects Done</span>
+                    <span class="achivement__wrapper-title">100%</span>
+                    <span class="achivement__wrapper-text">Motivation To Study</span>
                 </div>
             </div>
         </section>
-
+        
         <section class="video">
             <span class="section_small_title">Video</span>
             <span class="section_title">Video clip about me and this project</span>
             <span class="section_text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia harum facilis laboriosam 
-                accusantium suscipit magnam.
-                <br>
-                <br>
-                <br>
-                <br>
-                here is a video
-                <br>
-                <br>
-                <br>
-                <br>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur temporibus sint, ipsum 
-                corrupti minus praesentium ducimus facilis modi ab error.
+                In the video below, I told and showed this site "from the inside" and tried to demonstrate 
+                my knowledge in as much detail as possible.
+                <video width="320" height="240" controls>
+                    <source src="assets/images/video.mp4" type="video/mp4">
+                    Your browser does not support the video tag :(
+                </video>
+                This site is available both 
+                on <a href="https://github.com/AcruxTech/creative_task_yandex">github</a> 
+                and on the real domain - <a href="https://personal.akmit.ru">personal.akmit.ru</a>
             </span>
         </section>
 
@@ -96,7 +96,7 @@
 
         <section class="quote">
             <span class="section_small_title">great quote</span>
-            <span class="section_title quote_text"> 
+            <span class="section_title"> 
                 Software is a great combination between artistry and engineering
             </span>
             <span class="quoter_name">Bill Gates</span>
@@ -108,14 +108,14 @@
         <div class="footer__wrapper">
             <span class="footer__logo">Personal</span>
             <div class="footer__contacts">
-                <div class="footer__contact">
-                    <img src="assets/icons/telegram.svg">
+                <div class="footer__contact" onclick="window.location='https://t.me/AcruxTech'">
+                    <img src="assets/icons/telegram.svg" alt="telegram">
                 </div>
-                <div class="footer__contact">
-                    <img src="assets/icons/vk.svg">
+                <div class="footer__contact" onclick="window.location='https://vk.com/ovchinnikov.vladimir'">
+                    <img src="assets/icons/vk.svg" alt="vk">      
                 </div>
-                <div class="footer__contact">
-                    <img src="assets/icons/email.svg">
+                <div class="footer__contact" onclick="window.location='mailto: acrux_tech@mail.ru'">
+                    <img src="assets/icons/email.svg" alt="email">
                 </div>
             </div>
         </div>

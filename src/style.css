@@ -23,6 +23,10 @@ header {
     display: flex;
     align-items: center;
 }
+.logo img {
+    width: 48px;
+    height: 48px;
+}
 .logo__text {
     margin-left: 20px;
     margin-top: 6px;
@@ -51,7 +55,7 @@ header {
     text-transform: uppercase;
 }
 .dropbtn:hover, .dropbtn:focus {
-    background-color: #2980B9;
+    background-color: #2980b9;
 }
 .dropdown {
     position: relative;
@@ -147,7 +151,7 @@ section {
     line-height: 32px;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: #EF6D58;
+    color: #ef6d58;
 
     margin-bottom: 20px;
 } 
@@ -189,6 +193,8 @@ section {
 #second { border-left: none; border-radius: 0px 6px 6px 0px; }
 
 .achivement > img {
+    width: 72px;
+    height: 72px;
     margin: 25px 40px 25px 40px;
 }
 
@@ -217,8 +223,13 @@ section {
     color: #391400;
 }
 
+video {
+    margin: 50px 0;
+    width: 100%;
+}
+
 .quote {
-    margin: 160px 0;
+    margin: 120px 0;
     background: url("assets/icons/quotes.svg") no-repeat 85% 3%;
 }
 
